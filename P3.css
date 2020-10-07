@@ -451,7 +451,14 @@ textarea {
 }
 
 /* ------------- reponsive ------------- */
-
+@media all and (max-width: 320px) {
+    .Prochainement{
+        margin-bottom: 30%;
+    }
+    footer{
+        font-size: 1.1em;
+    }
+}
 @media all and (max-width: 425px) {
     body {
         min-width: 100%;
@@ -481,14 +488,6 @@ textarea {
     }
     .h4palette {
         max-width: 90%;
-    }
-}
-@media all and (max-width: 320px) {
-    .Prochainement{
-        margin-bottom: 30%;
-    }
-    footer{
-        font-size: 1.1em;
     }
 }
 @media all and (max-width: 767px){
