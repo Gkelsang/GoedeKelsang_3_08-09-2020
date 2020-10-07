@@ -126,6 +126,7 @@ a.button_quatre{
     height: 30em;
     margin-bottom: 10%;
     display: flex;
+    box-shadow: #f1f1f1 4px 4px 2px;
 }
 .containergeneral2{
     -webkit-transform: scale(1);
@@ -143,19 +144,15 @@ a.button_quatre{
 
 .containerun {
     background-color: #fcdfdb;
-    box-shadow: #f1f1f1 4px 4px 2px;
 }
 .containerdeux {
     background-color: #fff5fe;
-    box-shadow: #f1f1f1 4px 4px 2px;
 }
 .containertrois {
     background-color: #f9f9f9;
-    box-shadow: #f1f1f1 4px 4px 2px;
 }
 .containerquatre {
     background-color: #fdfffd;
-    box-shadow: #f1f1f1 4px 4px 2px;
 }
 
 /* ------------- bouton prochainement------------- */
