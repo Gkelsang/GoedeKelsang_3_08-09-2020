@@ -5,7 +5,7 @@ header {
     border-bottom: #FDCB46 solid 2px;
 }
 body {
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
 }
 h1 {
@@ -26,7 +26,7 @@ footer {
     border-top: solid #FDCB46 2px;
     position: fixed;
     bottom: 0;
-    width: 90%;
+    width: 100%;
     margin-top: 5%;
 }
 .button_footer1, .button_footer2 {
