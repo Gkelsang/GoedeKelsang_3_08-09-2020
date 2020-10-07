@@ -538,16 +538,7 @@ textarea {
         display: flex;
         flex-direction: column;
     }
-    .containerun{
-        width: 100%;
-    }
-    .containerdeux{
-        width: 100%;
-    }
-    .containertrois{
-        width: 100%;
-    }
-    .containerquatre{
+    .containergeneral{
         width: 100%;
     }
     .Prochainement{
