@@ -430,11 +430,14 @@ i {
     position: relative; bottom: -5px;
     float: right;
 }
-.tabledeux {
-    background: linear-gradient(to bottom, #d8852e, #8F5BFE);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+.partieune{
+    color:#C67412;
+}
+.partiedeux{
+    color:#A56799;
+}
+.partietrois{
+    color:#6E4CCC;
 }
 
 /* ------------- spécifique menu 3------------- */
