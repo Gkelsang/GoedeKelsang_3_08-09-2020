@@ -225,22 +225,42 @@ table {
     padding-bottom: 3%;
     width: 20%;
 }
-    
+.generalpages{
+    box-shadow: #f1f1f1 4px 4px 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    position: relative;
+}    
+.epd{
+    display: inline-block;
+    position: relative;
+}
+.epd::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.epd:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 /* ------------- spécifique menu 1 ------------- */
 
 .généralun {
     font-style: italic;
     font-size: 1.5em;
     background-color: #FCDFDB;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: #f1f1f1 4px 4px 2px;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    position: relative;
 }
 h4{
     font-family: 'brush script mt';
@@ -255,25 +275,8 @@ h4{
     margin-top: 3%;
     font-family: 'segoe print';
 }
-.epd1 {
-    display: inline-block;
-    position: relative;
-}
 .epd1::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
     background-color: black;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-.epd1:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
 }
 .traitnoirgauche {
     max-width: 30%;
@@ -301,15 +304,6 @@ i {
 .généraldeux {
     font-size: 1.5em;
     background-color: #fff5fe;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: #f1f1f1 4px 4px 2px;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    position: relative;
 }
 .h4chic {
     padding-top: 5%;
@@ -323,25 +317,8 @@ i {
     margin-top: 3%;
     font-weight: normal;
 }
-.epd2 {
-    display: inline-block;
-    position: relative;
-}
 .epd2::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
     background-color: #C77412;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-.epd2:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
 }
 .flechegauche{
     max-width: 30%;
@@ -370,15 +347,6 @@ i {
     background-color: #EDEFEF;
     color: black;
     font-family: 'Segoe print';
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: #f1f1f1 4px 4px 2px;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    position: relative;
 }
 .h4délice {
     background: linear-gradient(to bottom right, #0431df, #0887fb);
@@ -399,25 +367,8 @@ i {
     margin-top: 3%;
     font-family: 'segoe print';
 }
-.epd3 {
-    display: inline-block;
-    position: relative;
-}
 .epd3::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
     background-color: #905bfd;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-.epd3:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
 }
 .traitbleugauche{
     max-width: 30%;
@@ -435,15 +386,6 @@ i {
     background-color: #fdfffd;
     color: black;
     font-family: 'Segoe print';
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: #f1f1f1 4px 4px 2px;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    position: relative;
 }
 .h4palette{
     background: linear-gradient(to bottom right, #3d9339, #bfff7e);
@@ -464,25 +406,8 @@ i {
     margin-top: 3%;
     font-family: 'segoe print';
 }
-.epd4 {
-    display: inline-block;
-    position: relative;
-}
 .epd4::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
     background-color: #bfff7e;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-.epd4:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
 }
 .traitvertgauche{
     max-width: 30%;
@@ -541,12 +466,6 @@ textarea {
     .Prochainement{
         width: 70%;
         margin-bottom: 30%;
-    }
-    header{
-        width: 100%;
-    }
-    footer{
-        width: 100%;
     }
     .généralun, .généraldeux, .généraltrois, .généralquatre {
         font-size: 1em;
