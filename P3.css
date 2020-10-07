@@ -490,7 +490,7 @@ textarea {
         max-width: 90%;
     }
 }
-@media all and (max-width: 767px){
+@media all and (max-width: 768px){
     .menuun:before, .menuun:after{
         width: 20%;
     }
@@ -503,16 +503,7 @@ textarea {
     .menuquatre:before, .menuquatre:after{
         width: 20%;
     }
-    .flechegauche, .flechedroite {
-        display: none;
-    }
-    .traitnoirgauche, .traitnoirdroite {
-        display: none;
-    }
-    .traitbleugauche, .traitbleudroite {
-        display: none;
-    }
-    .traitvertgauche, .traitvertdroite {
+    .imagemenu{
         display: none;
     }
     .tableun, .tabledeux, .tabletrois, .tablequatre{
