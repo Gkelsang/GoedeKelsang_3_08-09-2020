@@ -58,31 +58,26 @@ footer {
 }
 
 /* ------------- page accueil ------------- */
-
-h2.hun{
-    font-weight: normal;
+.menuindex{
     font-size: 1.2em;
+    font-weight: normal;
+}
+h2.hun{
     color: #3C1218;
 }
 h2.hdeux {
-    font-weight: normal;
-    font-size: 1.2em;
     background: linear-gradient(to bottom right, #d8852e, #905bfd);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 }
-h2.htrois {
-    font-weight: normal;
-    font-size: 1.2em;
+h2.htrois { 
     background: linear-gradient(to bottom right, #0431df, #0887fb);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 }
 h2.hquatre {
-    font-weight: normal;
-    font-size: 1.2em;
     background: linear-gradient(to bottom right, #3d9339, #bfff7e);
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -90,47 +85,30 @@ h2.hquatre {
 }
 
 /* ------------- Boutons page d'acceuil ------------- */
-
+.buttonindex{
+    display: block;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-decoration: none;
+}
 a.button_un{
-    display:block;
     color: #3C1218;
     font-weight:normal;
-    font-size: 2em;
     text-transform: uppercase;
-    text-decoration:none;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
 a.button_deux{
-    display:block;
     color: #C77412;
     font-weight: bolder;
-    font-size: 2em;
-    text-decoration:none;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
 a.button_trois{
-    display:block;
     color:black;
     font-weight:normal;
-    font-size: 2em;
-    text-decoration:none;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
-a.button_quatre{
-    display:block;
+a.button_quatre{ 
     color: #8dbf56;
     font-weight:normal;
-    font-size: 2em;
-    text-decoration:none;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
 .container {
     width: 85%;
@@ -142,97 +120,42 @@ a.button_quatre{
     margin-right: auto;
     justify-content: space-between;
 }
-
-/* ------------- container1 ------------- */
+/* ------------- containers général -------------*/ 
+.containergeneral{
+    width: 45%;
+    height: 30em;
+    margin-bottom: 10%;
+    display: flex;
+}
+.containergeneral2{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin: auto;
+}
+.containergeneral2:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0.5;
+}
+/* ------------- containers 1,2,3,4 ------------- */
 
 .containerun {
-    width: 45%;
-    height: 30em;
-    margin-bottom: 10%;
     background-color: #fcdfdb;
     box-shadow: #f1f1f1 4px 4px 2px;
-    display: flex;
 }
-.container1 {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    margin: auto;
-}
-.container1:hover {
-	-webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity: 0.5;
-}
-
-/* ------------- container2 ------------- */
-
 .containerdeux {
-    width: 45%;
-    height: 30em;
-    margin-bottom: 10%;
     background-color: #fff5fe;
     box-shadow: #f1f1f1 4px 4px 2px;
-    display: flex;
 }
-.container2 {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    margin: auto;
-}
-.container2:hover {
-	-webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity: 0.5;
-}
-
-/* ------------- container3 ------------- */
-
 .containertrois {
-    width: 45%;
-    height: 30em;
-    margin-bottom: 10%;
     background-color: #f9f9f9;
     box-shadow: #f1f1f1 4px 4px 2px;
-    display: flex;
 }
-.container3 {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    margin: auto;
-}
-.container3:hover {
-	-webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity: 0.5;
-}
-
-/*------------- container4 ------------- */
-
 .containerquatre {
-    width: 45%;
-    height: 30em;
-    margin-bottom: 10%;
     background-color: #fdfffd;
     box-shadow: #f1f1f1 4px 4px 2px;
-    display: flex;
-}
-.container4 {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    margin: auto;
-}
-.container4:hover {
-	-webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity: 0.5;
 }
 
 /* ------------- bouton prochainement------------- */
@@ -279,6 +202,9 @@ h3 {
         transform: scale(0.7) translateY(10px);
     }
 }
+/* ------------- Fin page index ------------- */
+
+
 
 /* ------------- En commun aux 4 pages ------------- */
 
