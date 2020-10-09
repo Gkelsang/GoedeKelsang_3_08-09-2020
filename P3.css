@@ -37,10 +37,13 @@ footer {
     padding-bottom: 2%;
     padding-left: 1%;
     padding-right: 1%;
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-    transform: translate3d(0, 0, 0);
+    
     backface-visibility: hidden;
     perspective: 1000px;
+}
+.button_footer1:hover, .button_footer2:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 @keyframes shake {
   10%, 90% {
