@@ -64,24 +64,31 @@ footer {
 }
 h2.hun{
     color: #3C1218;
+    font-family: Segoe Script;
 }
 h2.hdeux {
     background: linear-gradient(to bottom right, #d8852e, #905bfd);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    font-weight: bolder;
 }
 h2.htrois { 
     background: linear-gradient(to bottom right, #0431df, #0887fb);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    font-family: Brush Script MT;
+    font-size: 2em;
 }
 h2.hquatre {
     background: linear-gradient(to bottom right, #3d9339, #bfff7e);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    font-family: Bradley Hand ITC;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 /* ------------- Boutons page d'acceuil ------------- */
@@ -97,6 +104,7 @@ a.button_un{
     color: #3C1218;
     font-weight:normal;
     text-transform: uppercase;
+    font-family: Comic Sans MS;
 }
 a.button_deux{
     color: #C77412;
@@ -105,10 +113,14 @@ a.button_deux{
 a.button_trois{
     color:black;
     font-weight:normal;
+    font-family: Bradley Hand ITC;
+    font-weight: bolder;
 }
 a.button_quatre{ 
     color: #8dbf56;
     font-weight:normal;
+    font-family: Bradley Hand ITC;
+    font-weight: bolder;
 }
 .container {
     width: 85%;
@@ -126,7 +138,7 @@ a.button_quatre{
     height: 30em;
     margin-bottom: 10%;
     display: flex;
-    box-shadow: #f1f1f1 4px 4px 2px;
+    box-shadow: #f1f1f1 4px 4px 4px 2px;
 }
 .containergeneral2{
     -webkit-transform: scale(1);
