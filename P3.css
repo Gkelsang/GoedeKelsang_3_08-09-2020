@@ -67,25 +67,22 @@ h2.hun{
     font-family: Segoe Script;
 }
 h2.hdeux {
-    background: linear-gradient(to bottom right, #d8852e, #905bfd);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d8852e), to(#905bfd));
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bolder;
 }
 h2.htrois { 
-    background: linear-gradient(to bottom right, #0431df, #0887fb);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0431df), to(#0887fb));
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: Brush Script MT;
     font-size: 2em;
 }
 h2.hquatre {
-    background: linear-gradient(to bottom right, #3d9339, #bfff7e);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3d9339), to(#bfff7e));
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: Bradley Hand ITC;
     font-weight: bolder;
     font-style: italic;
@@ -367,10 +364,9 @@ i {
     font-family: 'Segoe print';
 }
 .h4délice {
-    background: linear-gradient(to bottom right, #0431df, #0887fb);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0431df), to(#0887fb));
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Edwardian script itc';
     font-size: 3em;
     font-weight: normal;
@@ -406,10 +402,9 @@ i {
     font-family: 'Segoe print';
 }
 .h4palette{
-    background: linear-gradient(to bottom right, #3d9339, #bfff7e);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3d9339), to(#bfff7e));
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'segoe print';
     font-size: 1.5em;
     font-weight: bolder;
